@@ -18,10 +18,10 @@
 # Inherit device configuration
 $(call inherit-product, device/coolpad/c106/full_c106.mk)
 
-# Inherit some common PixelExperience stuff.
+# Inherit some common BaikalOS stuff.
 $(call inherit-product, vendor/baikalos/config/common_full_phone.mk)
 
-# PixelExperience stuff.
+# BaikalOS stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
